@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entrainnements",
+  "info": {
+    "singularName": "entrainnement",
+    "pluralName": "entrainnements",
+    "displayName": "entrainnement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jour": {
+      "type": "string"
+    },
+    "matin": {
+      "type": "string"
+    },
+    "apresmidi": {
+      "type": "string"
+    },
+    "match": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "datearrive": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jpostes",
+  "info": {
+    "singularName": "jposte",
+    "pluralName": "jpostes",
+    "displayName": "jposte",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "joueurs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::joueur.joueur",
+      "mappedBy": "jposte"
+    }
+  }
+}

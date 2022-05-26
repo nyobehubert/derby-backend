@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "joueurs",
+  "info": {
+    "singularName": "joueur",
+    "pluralName": "joueurs",
+    "displayName": "joueur",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "poste": {
+      "type": "string"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "integer"
+    },
+    "taille": {
+      "type": "decimal"
+    },
+    "datenais": {
+      "type": "date"
+    },
+    "jposte": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::jposte.jposte",
+      "inversedBy": "joueurs"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icone": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "PIED": {
+      "type": "string"
+    },
+    "lieu": {
+      "type": "string"
+    }
+  }
+}

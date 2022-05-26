@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produitderives",
+  "info": {
+    "singularName": "produitderive",
+    "pluralName": "produitderives",
+    "displayName": "Produitderive",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

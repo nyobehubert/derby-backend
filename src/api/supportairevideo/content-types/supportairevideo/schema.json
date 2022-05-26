@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "supportairevideos",
+  "info": {
+    "singularName": "supportairevideo",
+    "pluralName": "supportairevideos",
+    "displayName": "Supportairevideo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    }
+  }
+}

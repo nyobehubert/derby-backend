@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "supportaires",
+  "info": {
+    "singularName": "supportaire",
+    "pluralName": "supportaires",
+    "displayName": "supportaire",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

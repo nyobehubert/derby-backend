@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videogals",
+  "info": {
+    "singularName": "videogal",
+    "pluralName": "videogals",
+    "displayName": "Videogal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
